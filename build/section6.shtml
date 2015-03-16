@@ -1,0 +1,81 @@
+
+<section class="section" id="section6">
+
+<!--     <img src="../images/smaller-seagull.png" alt="" class="birds" id="small-seagull"
+      data-start="top: 440px; left: 48%; transform: scale(.3) rotate(0deg); opacity: 1;"
+      data-end ="top: 1000px; left: 0%; transform: scale(.1) rotate(-70deg); opacity: 0;"
+      data-anchor-target="#section6"
+    >
+
+ -->
+
+  <!-- Inner slide - slide 1 -->
+  <div class="slide" id="slide1">
+
+    <div class="section-inner max-width min-width"
+      data-top-bottom="transform:translateY(150px)"
+      data-center="transform:translateY(0px)"
+      data-bottom-top ="transform:translateY(-150px)"      
+      data-anchor-target="#section6"
+    >
+      <div class="col50-50">
+        &nbsp;
+      </div>
+      <div class="col50-50 posi">
+        <h1>
+          <span class="light-blue">Rememeber</span><br>
+          you need<br>
+          your customers<br>
+          more than they<br>
+          need you
+        </h1>
+      </div>
+    </div>
+  </div>
+
+    <div class="jackpot">
+      <img src="images/jackpot-head.png" alt="" class="head"
+        data-top-bottom="transform:rotate(20deg);"
+        data-center="transform:rotate(0deg);"
+        data-bottom-top ="transform:rotate(-20deg);"      
+        data-anchor-target="#section6"
+      >  
+      <img src="images/jackpot-body.png" alt="" class="body">
+      <!-- Cherry -->
+      <img src="images/cherry.png" alt="" class="cherry one"
+        data-bottom-top="top: 340px;  display: none;"
+        data-60-top="top: 400px; display: block"     
+        data-anchor-target="#section6"
+        >
+      <img src="images/cherry.png" alt="" class="cherry two"
+        data-bottom-top="top: 320px;  display: none;"
+        data-40-top="top: 400px; display: block"     
+        data-anchor-target="#section6"
+        >
+      <img src="images/cherry.png" alt="" class="cherry three"
+        data-bottom-top="top: 300px;  display: none;"
+        data-30-top="top: 400px; display: block"     
+        data-anchor-target="#section6"
+        > 
+      <!-- Cherry blur -->
+      <img src="images/cherry-blur.png" alt="" class="cherry one blur"
+        data-bottom-top="top: 340px;  display: block;"
+        data-60-top="top: 388px;  display: none;"     
+        data-anchor-target="#section6"
+        >
+      <img src="images/cherry-blur.png" alt="" class="cherry two blur"
+        data-bottom-top="top: 320px;  display: block;"
+        data-40-top="top: 388px;  display: none;"     
+        data-anchor-target="#section6"
+        >
+      <img src="images/cherry-blur.png" alt="" class="cherry three blur"
+        data-bottom-top="top: 300px;  display: block;"
+        data-20-top="top: 388px;  display: none;"     
+        data-anchor-target="#section6"
+        >  
+    </div>
+
+  <!-- Inner slide - slide 3 -->
+  <!--#include file="section3.1.shtml" --> 
+
+</section>

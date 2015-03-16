@@ -5,7 +5,7 @@
 @import "breakpoint";
 
 //Fittext
-@import "fittext";
+//@import "fittext";
 
 //Resets
 @import "resets/normalize";
@@ -19,35 +19,35 @@
 //@import "compass/utilities/general/clearfix";
 @import "compass/typography/vertical_rhythm";
 @import "compass/utilities";
-@import "compass/utilities/sprites";
+//@import "compass/utilities/sprites";
 
 //Font awesome
-@import "fontawesome/font-awesome"; 
+//@import "fontawesome/font-awesome"; 
 
 //Base
 @import "base/fonts"; 
 @import "base/base"; 
 
 //Forms
-@import "forms/fields";
-@import "forms/buttons";
-@import "forms/dropkick";
-@import "forms/multiselect";
+//@import "forms/fields";
+//@import "forms/buttons";
+//@import "forms/dropkick";
+//@import "forms/multiselect";
 
 //UI Theme
-@import "ui-theme/jquery-ui-theme";
+//@import "ui-theme/jquery-ui-theme";
 
 //mixin
-@import "mixins/mixins";
+//@import "mixins/mixins";
 
 //Structure
 @import "structure/structure";	
 
 //Module
-@import "modules/modules";
+//@import "modules/modules";
 
 //Effects
-@import "effects/animate";
+//@import "effects/animate";
 
 //Vendor
 @import "vendor/jquery.fullPage";

@@ -1,0 +1,46 @@
+<img src="../images/cloud-001.png" alt="" class="clouds" id="cloud-004"
+  data-bottom-top ="left:-10%;"      
+  data-top-bottom="left:40%;"
+>
+
+
+<section class="section" id="section7">
+
+  <!-- Inner slide - slide 1 -->
+  <div class="slide" id="slide1">
+
+    <div class="section-inner max-width min-width"
+      data-top-bottom="transform:translateY(150px)"
+      data-center="transform:translateY(0px)"
+      data-bottom-top ="transform:translateY(-150px)"      
+      data-anchor-target="#section7"
+    >
+      <div class="col50-50">
+        <h1>
+          <span class="light-blue">Rememeber</span><br>
+          you need<br>
+          your customers<br>
+          more than they<br>
+          need you
+        </h1>
+      </div>
+      <div class="col50-50 posi">
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="crane">
+      <img src="images/crane-head.png" alt="" class="head"
+      data-bottom-top ="transform:rotate(-30deg); top: 180px;"  
+        data-top-bottom="transform:rotate(30deg); top: 175px;"    
+        data-anchor-target="#section7"
+      >
+      <img src="images/crane-body.png" alt="" class="body">
+    </div>
+
+  </div>
+
+  <!-- Inner slide - slide 3 -->
+  <!--#include file="section3.1.shtml" --> 
+
+</section>

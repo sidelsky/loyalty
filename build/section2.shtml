@@ -1,0 +1,61 @@
+<!--
+  <img src="../images/cloud-001.png" alt="" class="clouds cloud-004"
+    data-bottom-top ="left: 200px;"      
+    data-top-bottom="left: 200px;"
+  >
+  <img src="../images/cloud-001.png" alt="" class="clouds cloud-004"
+    data-bottom-top ="left: 200px;"      
+    data-top-bottom="left: 200px;"
+  >
+-->
+
+  <section class="section" id="section2">
+      
+  <!-- Inner slide - slide 1 -->
+  <div class="slide" id="slide1">
+
+    <div class="characters character-002 match-height">
+
+      <img src="../images/character-002-head.png" alt="" class="head" 
+        data-start="transform:rotate(0deg);"
+        data-end ="transform:rotate(100deg);"      
+        data-anchor-target="#section2"
+      >
+
+      <img src="../images/character-002-tie.png" alt="" class="tie" 
+        data-800-start="transform:rotate(10deg); left: 420px;"
+        data-2000-start ="transform:rotate(-10deg); left: 460px;"      
+        data-anchor-target="#section2"
+      >
+
+      <img src="../images/character-002-body.png" alt="" class="body">
+      </div>
+    
+      <div class="section-inner max-width min-width"
+        data-top-bottom="transform:translateY(250px)"
+        data-center="transform:translateY(0px)"
+        data-bottom-top ="transform:translateY(-250px)"      
+        data-anchor-target="#section2"
+      >
+      <div class="col50-50">
+        &nbsp;
+      </div>
+      <div class="col50-50 posi">
+        <h1>
+          <span class="light-blue">Ask not what<br>
+          your customers<br>
+          can do for you</span><br>
+          ask what you<br>
+          can do for your<br>
+          customers
+        </h1>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Inner slides -->
+  <!--#include file="section2.1.shtml" --> 
+  <!--#include file="section2.2.shtml" -->
+
+</section>

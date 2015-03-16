@@ -1,0 +1,57 @@
+    <img src="../images/smaller-seagull.png" alt="" class="birds" id="small-seagull"
+      data-start="top: 2466px; left: 45%; transform: scale(1) rotate(5deg); opacity: 1;"
+      data-end ="top: 3000px; left: 10%; transform: scale(.1) rotate(-70deg); opacity: 0;"
+      data-anchor-target="#section1"
+    >
+
+    <img src="../images/cloud-001.png" alt="" class="clouds" id="cloud-003"
+      data-bottom-top ="left:-10%; transform: scale(.7)"      
+      data-top-bottom="left:40%; transform: scale(.7);"
+    >
+
+  <section class="section" id="section4">
+
+  <!-- Inner slide - slide 1 -->
+  <div class="slide" id="slide1">
+
+    <div class="section-inner max-width min-width"
+      data-top-bottom="transform:translateY(150px)"
+      data-center="transform:translateY(0px)"
+      data-bottom-top ="transform:translateY(-150px)"      
+      data-anchor-target="#section4"
+    >
+      <div class="col50-50">
+      <h1>
+          <span class="light-blue">MAKE THEIR<br>WISHES COME TRUE:</span><br>
+          TLC’s LIFESTYLE AND TRAVEL REWARDS<br>OFFER ORIGINAL, AFFORDABLE<br> &amp; TARGETED<br>INCENTIVES THAT<br> REALLY WORK
+        </h1
+      </div>
+      <div class="col50-50">
+        &nbsp;
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="mag-man-container">
+    <img src="images/mag-man-head.png" alt="" class="mag-man-head"
+      data-center-top="transform:rotate(-35deg); right: 190px; bottom: 370px;"
+      data-top ="transform:rotate(0deg); right: 220px; bottom: 354px;"      
+      data-anchor-target="#section4"
+    >
+
+    <img src="images/mag-man-body.png" alt="" class="mag-man-body">
+
+    <img src="images/football.png" alt="" class="football"
+      data-top="transform:rotate(0deg); right: 570px; top: -170px;"
+      data-center ="transform:rotate(90deg); right: 570px; top: -130px;"
+      data-bottom ="transform:rotate(0deg); right: 570px; top: -170px;"        
+
+    >
+    <img src="images/mag-man-ground.png" alt="" class="mag-man-ground">
+  </div>
+
+  <!-- Inner slide - slide 3 -->
+  <!--#include file="section3.1.shtml" --> 
+
+</section>

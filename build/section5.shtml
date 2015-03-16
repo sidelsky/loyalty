@@ -1,0 +1,34 @@
+<section class="section" id="section5">
+
+  <!-- Inner slide - slide 1 -->
+  <div class="slide" id="slide1">
+
+    <div class="section-inner max-width min-width"
+      data-top-bottom="transform:translateY(150px)"
+      data-center="transform:translateY(0px)"
+      data-bottom-top ="transform:translateY(-150px)"      
+      data-anchor-target="#section5"
+    >
+      <div class="col50-50">
+        <h1><span class="light-blue">Rememeber</span><br>you need your<br>customers<br>more than they<br>need you</h1>
+      </div>
+      <div class="col50-50 posi">
+       &nbsp;
+      </div>
+    </div>
+
+    <div class="lamp-genie"
+      data-top-bottom="transform:translateX(100%) scale(.4) "
+      data-center="transform:translateX(0%) scale(1)"
+      data-bottom-top ="transform:translateX(100%) scale(.8);"      
+      data-anchor-target="#section5"
+    >
+      <img src="images/lamp-genie.png" alt="">
+    </div>
+
+  </div>
+
+  <!-- Inner slide - slide 3 -->
+  <!--#include file="section4.1.shtml" --> 
+
+</section>

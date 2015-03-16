@@ -17,6 +17,7 @@ images_dir = "build/images"
 javascripts_dir = "build/javascript"
 fonts = "build/fonts"
 #relative_assets = "true"
+sourcemap = true
 
 #Used for image sprites
 #http_generated_images_path = "../img"

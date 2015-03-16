@@ -1,0 +1,42 @@
+<img src="../images/cloud-001.png" alt="" class="clouds" id="cloud-002"
+  data-bottom-top ="left:-10%;"      
+  data-top-bottom="left:70%;"
+>
+
+<section class="section" id="section3">
+
+  <!-- Inner slide - slide 1 -->
+  <div class="slide" id="slide1">
+
+    <div class="section-inner max-width min-width"
+      data-top-bottom="transform:translateY(150px); left: 130px"
+      data-center="transform:translateY(90px); left: 130px"
+      data-bottom-top ="transform:translateY(-150px); left: 130px"      
+      data-anchor-target="#section3"
+    >
+      <div class="col50-50">
+        &nbsp;
+      </div>
+      <div class="col50-50">
+        <h1>
+          <span class="light-blue">Rememeber</span><br>
+          you need<br>
+          your customers<br>
+          more than they<br>
+          need you
+        </h1>
+      </div>
+    </div>
+
+    <img src="images/plank.png" alt="" class="plank-people"
+      data-top-bottom="top: 100px; left: 0px;"
+      data-center="top: 100px; left: -200px;"
+      data-bottom-top ="top: 100px; left: 0px;"  
+    >
+
+  </div>
+
+  <!-- Inner slide - slide 3 -->
+  <!--#include file="section3.1.shtml" --> 
+
+</section>
