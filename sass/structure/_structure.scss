@@ -1,12 +1,12 @@
 .preloader {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: $primary-color;
-  z-index: 20000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: $primary-color;
+	z-index: 20000;
 /*   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; */
@@ -14,39 +14,43 @@
   .loading {
     //display: block;
     //margin: 30px auto;
-      width: 100%;
-      height: 50px;
-      position: absolute;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     .spinner {
-      width: 24px;
-      margin: 0 auto;
-      @include rhythm(0, 0, 0, 1);
+    	width: 24px;
+    	margin: 0 auto;
+    	@include rhythm(0, 0, 0, 1);
     }
     p {
-      @include rhythm(0, .3, .3, 0);
-      font: arial;
-      text-transform: uppercase;
-      @include adjust-font-size-to(12px, 1);
-      color: $white;
-      text-align: center;
-      letter-spacing: 1px;
+    	@include rhythm(0, .3, .3, 0);
+    	font: arial;
+    	text-transform: uppercase;
+    	@include adjust-font-size-to(12px, 1);
+    	color: $white;
+    	text-align: center;
+    	letter-spacing: 1px;
     }
   }
 }
 
 
 #progress-bar, #info {
-	height: 3px;
+	height: 5px;
 	width: 0;
 	position: fixed; 
 	top: 0;
 	left: 0;
 	z-index: 20000;
-	background-color: red;
+	background-color: $white;
+}
+
+#info {
+	//display: none;
 }
 
 /* Main navigation */
@@ -85,7 +89,7 @@
 /* Defining each section background and styles */
 
 #fullpage {
-	background: url(../../images/background-sky-clouds.jpg) no-repeat 0 0;
+	background: url(../images/background-sky-clouds.jpg) no-repeat 0 0;
 	background-size: cover;
 	overflow: hidden;
 	//@extend %bdr;
@@ -111,16 +115,31 @@
 	@include breakpoint($extralarge){
 		padding: 0;	
 	}
+	h2 {
+		color: $primary-color;
+	}
+	&.gutter {
+		padding: 0 2em;
+	}
 }
 
 #section1 {
-	//background: url(../../images/character-001.png) no-repeat 0 0;
+	//background: url(../images/character-001.png) no-repeat 0 0;
 	//background-size: contain;
 }
 
 .slide {
 	position: relative !important;
 	overflow: hidden;
+	.section-inner {
+		h2 {
+			color: $primary-color;
+			@include rhythm(4, 0, 0, 1);
+		}
+		p {
+
+		}
+	}
 }
 
 .characters {
@@ -149,6 +168,7 @@
 	}
 	&.character-002 {
 		left: 37%;
+		margin-top: -100px;
 		img {
 			position: absolute;
 			&.head {
@@ -262,8 +282,8 @@
 }
 
 #section5 {
-	background: url(../../images/radiance-background.png) no-repeat center center;
-	background-size: cover;
+	background: url(../images/radiance-background.png) no-repeat center right;
+	//background-size: cover;
 	overflow: visible !important;
 	.lamp-genie {
 		position: absolute;
@@ -317,31 +337,31 @@
 			z-index: 1;
 			width: 50px;
 			&.one {
-			  top: 400px;
-			  left: 345px;
-			  &.blur {
+				top: 400px;
+				left: 345px;
+				&.blur {
 					top: 380px;
 				}
 			}
 			&.two {
-			  top: 400px;
-			  left: 445px;
-			  &.blur {
+				top: 400px;
+				left: 445px;
+				&.blur {
 					top: 380px;
 				}
 			}
 			&.three {
-			  top: 400px;
-			  left: 548px;
-			  &.blur {
+				top: 400px;
+				left: 548px;
+				&.blur {
 					top: 400px;
 				}
 			}
 		}
 		.head {
-		  top: 260px;
-		  left: 535px;
-		  width: 220px;
+			top: 260px;
+			left: 535px;
+			width: 220px;
 			z-index: 2;
 		}
 	}
@@ -370,20 +390,20 @@
 		z-index:0;
 		width: 100%;
 		max-width: 100%;
-		@extend %bdr;
-		background: url(../../images/grass.png) repeat-x right bottom; 
+		background: url(../images/grass.png) repeat-x right bottom; 
 		img {
 			position: absolute;
 		}
 		.head {
-			top: 177px;
+			top: 100px;
 			right: 429px;
 			z-index: 2;
 		}
 		.body {
-			top: 150px;
-			right: 250px;
+			top: 100px;
+			right: 290px;
 			z-index: 1;
+			width: 430px;
 		}
 	}
 	.fp-slides {
@@ -395,6 +415,21 @@
 				&.active {
 
 				}
+			}
+		}
+	}
+}
+
+#section8 {
+	background: $primary-color;
+	width: 100%;
+	.section-inner {
+		h2 {
+			@include adjust-font-size-to(66px, 5.5);
+			color: white;
+			a {
+				color: $secondary-color;
+				text-decoration: underline;
 			}
 		}
 	}
@@ -438,7 +473,7 @@
 	//@extend %bdr;
 	-webkit-overflow-scrolling: touch;
 	.timeline_inner {
-		width: 6000px;
+/* 		width: 6000px;
 		div {
 			float: left;
 			display: block;
@@ -446,46 +481,63 @@
 			img {
 				width: 100%;
 			}
+			} */
 		}
-	}
-	img {
+/* 	img {
 		display: inline;
 		width: 338px;
+		} */
 	}
-}
 
 
-/*Birds*/
-.birds, .clouds {
-	position: absolute;
-	z-index: 0;
-}
+	/*Birds*/
+	.birds, .clouds {
+		position: absolute;
+		z-index: 0;
+	}
 
-#cloud-000 {
-	top: 240px;
-}
+	#cloud-000 {
+		top: 240px;
+	}
 
-#cloud-001 {
-	top: 800px;
-}
+	#cloud-001 {
+		top: 800px;
+	}
 
-#cloud-002 {
-	top: 2200px;
-}
+	#cloud-002 {
+		top: 2200px;
+	}
 
-#cloud-003 {
-	top: 2858px;
-}
+	#cloud-003 {
+		top: 2858px;
+	}
 
-.cloud-004 {
-	top: 1680px;
-	z-index: 1000;
-}
+	.cloud-004 {
+		top: 1680px;
+		z-index: 1000;
+	}
 
-#big-seagull {
+	#cloud-005 {
+		top: 4600px;
+	}
 
-}
+	#cloud-006 {
+		top: 4600px;
+		left: 600px;
+		width: 80%;
+	}
 
-#small-seagull {
+	#cloud-007 {
+		top: 3900px;
+		left: -50px;
+		width: 1000px;
+		z-index: 1;
+	}
 
-}
+	#big-seagull {
+
+	}
+
+	#small-seagull {
+
+	}

@@ -1,4 +1,4 @@
-<img src="../images/cloud-001.png" alt="" class="clouds" id="cloud-002"
+<img src="images/cloud-001.png" alt="" class="clouds" id="cloud-002"
   data-bottom-top ="left:-10%;"      
   data-top-bottom="left:70%;"
 >
@@ -19,9 +19,8 @@
       </div>
       <div class="col50-50">
         <h1>
-          <span class="light-blue">Rememeber</span><br>
-          you need<br>
-          your customers<br>
+          <span class="light-blue">You need<br>
+          your customers</span><br>
           more than they<br>
           need you
         </h1>
@@ -38,5 +37,6 @@
 
   <!-- Inner slide - slide 3 -->
   <!--#include file="section3.1.shtml" --> 
+  <!--#include file="section3.2.shtml" --> 
 
 </section>

@@ -213,6 +213,10 @@ img {
 	clear: both;
 }
 
+strong {
+	font-weight: 700;
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'bebas_neueregular';
 	font-weight: 100;
@@ -224,8 +228,8 @@ h1 {
 }
 
 h2 {
-	@include adjust-font-size-to(36px, 3.5);
-	@include rhythm(0, 0, 0, 2);
+	@include adjust-font-size-to(46px, 3.5);
+	//@include rhythm(0, 0, 0, 2);
 }
 h3 {
 	@include adjust-font-size-to(20px, 2.8);
@@ -233,7 +237,7 @@ h3 {
 
 p {
 	color: $grey;
-	@include adjust-font-size-to(24px, 3);
+	@include adjust-font-size-to(27px, 3.2);
 	@include rhythm(0, 0, 0, 2);
 }
 

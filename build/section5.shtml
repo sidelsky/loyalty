@@ -1,3 +1,5 @@
+<img src="images/cloud-001.png" alt="" class="clouds" id="cloud-007">
+
 <section class="section" id="section5">
 
   <!-- Inner slide - slide 1 -->
@@ -10,7 +12,7 @@
       data-anchor-target="#section5"
     >
       <div class="col50-50">
-        <h1><span class="light-blue">Rememeber</span><br>you need your<br>customers<br>more than they<br>need you</h1>
+        <h1>MAKE CUSTOMERS WISHES COE TRUE: <span class="light-blue">UNDERSTAND THEIR DREAMS, THEIR ASPIRATIONS</span></h1>
       </div>
       <div class="col50-50 posi">
        &nbsp;
@@ -28,7 +30,7 @@
 
   </div>
 
-  <!-- Inner slide - slide 3 -->
-  <!--#include file="section4.1.shtml" --> 
+  <!-- Inner slide - slide 5 -->
+  <!--#include file="section5.1.shtml" --> 
 
 </section>

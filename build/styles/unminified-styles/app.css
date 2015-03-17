@@ -626,10 +626,6 @@ ul, li {
   list-style-type: none;
 }
 
-#section7 .crane {
-  outline: solid red 1px;
-}
-
 .hide {
   display: none !important;
 }
@@ -674,6 +670,10 @@ img {
   clear: both;
 }
 
+strong {
+  font-weight: 700;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'bebas_neueregular';
   font-weight: 100;
@@ -695,18 +695,10 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
-  font-size: 2rem;
+  font-size: 46px;
+  font-size: 2.55556rem;
   line-height: 42px;
   line-height: 2.33333rem;
-  margin-top: 0px;
-  margin-top: 0rem;
-  padding-top: 0px;
-  padding-top: 0rem;
-  padding-bottom: 0px;
-  padding-bottom: 0rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.33333rem;
 }
 
 h3 {
@@ -718,10 +710,10 @@ h3 {
 
 p {
   color: #666666;
-  font-size: 24px;
-  font-size: 1.33333rem;
-  line-height: 36px;
-  line-height: 2rem;
+  font-size: 27px;
+  font-size: 1.5rem;
+  line-height: 38px;
+  line-height: 2.13333rem;
   margin-top: 0px;
   margin-top: 0rem;
   padding-top: 0px;
@@ -792,13 +784,13 @@ a {
 }
 
 #progress-bar, #info {
-  height: 3px;
+  height: 5px;
   width: 0;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 20000;
-  background-color: red;
+  background-color: white;
 }
 
 /* Main navigation */
@@ -872,10 +864,27 @@ a {
     padding: 0;
   }
 }
+.col50-50 h2 {
+  color: #006bd6;
+}
+.col50-50.gutter {
+  padding: 0 2em;
+}
 
 .slide {
   position: relative !important;
   overflow: hidden;
+}
+.slide .section-inner h2 {
+  color: #006bd6;
+  margin-top: 48px;
+  margin-top: 2.66667rem;
+  padding-top: 0px;
+  padding-top: 0rem;
+  padding-bottom: 0px;
+  padding-bottom: 0rem;
+  margin-bottom: 12px;
+  margin-bottom: 0.66667rem;
 }
 
 .characters {
@@ -898,6 +907,7 @@ a {
 }
 .characters.character-002 {
   left: 37%;
+  margin-top: -100px;
 }
 .characters.character-002 img {
   position: absolute;
@@ -996,8 +1006,7 @@ a {
 }
 
 #section5 {
-  background: url(../../images/radiance-background.png) no-repeat center center;
-  background-size: cover;
+  background: url(../../images/radiance-background.png) no-repeat center right;
   overflow: visible !important;
 }
 #section5 .lamp-genie {
@@ -1104,14 +1113,15 @@ a {
   position: absolute;
 }
 #section7 .crane .head {
-  top: 177px;
+  top: 100px;
   right: 429px;
   z-index: 2;
 }
 #section7 .crane .body {
-  top: 150px;
-  right: 250px;
+  top: 100px;
+  right: 290px;
   z-index: 1;
+  width: 430px;
 }
 #section7 .fp-slides {
   overflow: visible !important;
@@ -1121,6 +1131,22 @@ a {
 }
 #section7 .fp-slides .fp-slidesContainer .fp-table {
   overflow: visible !important;
+}
+
+#section8 {
+  background: #006bd6;
+  width: 100%;
+}
+#section8 .section-inner h2 {
+  font-size: 66px;
+  font-size: 3.66667rem;
+  line-height: 66px;
+  line-height: 3.66667rem;
+  color: white;
+}
+#section8 .section-inner h2 a {
+  color: #56bacd;
+  text-decoration: underline;
 }
 
 /* Animation */
@@ -1135,21 +1161,21 @@ a {
 .timeline {
   overflow: auto !important;
   -webkit-overflow-scrolling: touch;
+  /* 	img {
+  		display: inline;
+  		width: 338px;
+  		} */
 }
 .timeline .timeline_inner {
-  width: 6000px;
-}
-.timeline .timeline_inner div {
-  float: left;
-  display: block;
-  width: 300px;
-}
-.timeline .timeline_inner div img {
-  width: 100%;
-}
-.timeline img {
-  display: inline;
-  width: 338px;
+  /* 		width: 6000px;
+  		div {
+  			float: left;
+  			display: block;
+  			width: 300px;
+  			img {
+  				width: 100%;
+  			}
+  			} */
 }
 
 /*Birds*/
@@ -1177,6 +1203,23 @@ a {
 .cloud-004 {
   top: 1680px;
   z-index: 1000;
+}
+
+#cloud-005 {
+  top: 4600px;
+}
+
+#cloud-006 {
+  top: 4600px;
+  left: 600px;
+  width: 80%;
+}
+
+#cloud-007 {
+  top: 3900px;
+  left: -50px;
+  width: 1000px;
+  z-index: 1;
 }
 
 /**
@@ -1264,16 +1307,16 @@ html, body {
 }
 
 .fp-controlArrow.fp-prev {
-  left: 15px;
+  left: 3em;
   width: 0;
-  border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent #fff transparent transparent;
+  border-width: 34.5px 30px 34.5px 0;
+  border-color: transparent #006bd6 transparent transparent;
 }
 
 .fp-controlArrow.fp-next {
-  right: 15px;
-  border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #fff;
+  right: 3em;
+  border-width: 34.5px 0 34.5px 30px;
+  border-color: transparent transparent transparent #006bd6;
 }
 
 .fp-scrollable {
@@ -1365,7 +1408,7 @@ html, body {
   height: 4px;
   width: 4px;
   border: 0;
-  background: #333;
+  background: #3d9eff;
   left: 50%;
   top: 50%;
   margin: -2px 0 0 -2px;
@@ -1419,8 +1462,11 @@ html, body {
   border-bottom: solid 3px white;
 }
 .main-navigation ul li a {
+  font-size: 13px;
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
+  outline: none;
 }
 
 h1 {

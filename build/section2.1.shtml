@@ -1,14 +1,13 @@
-<div class="slide" id="slide2">
-  
+<div class="slide">
+
   <div class="section-inner max-width min-width">
-    <div class="col50-50">
-     <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h1>
-     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    </div>
-    <div class="col50-50 posi">
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    </div>
-  </div>
+    <div>
+      <p>You know this is true: the most profitable relationships are always mutually rewarding.</p>  
+
+      <p>The trouble is, every loyalty programme provider will listen carefully to your aspirations for growth. But our first Golden Rule means we won't do a thing until we make sure you can hear your customers' voices, too.</p>  
+
+      <p>As a result, we're confident you'll secure stronger ties; richer, more rewarding relationships; better targeting – and greater value for money all round.</p>
+   </div>
+ </div>
 
 </div>   

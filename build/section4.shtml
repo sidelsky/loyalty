@@ -1,10 +1,10 @@
-    <img src="../images/smaller-seagull.png" alt="" class="birds" id="small-seagull"
+    <img src="images/smaller-seagull.png" alt="" class="birds" id="small-seagull"
       data-start="top: 2466px; left: 45%; transform: scale(1) rotate(5deg); opacity: 1;"
       data-end ="top: 3000px; left: 10%; transform: scale(.1) rotate(-70deg); opacity: 0;"
       data-anchor-target="#section1"
     >
 
-    <img src="../images/cloud-001.png" alt="" class="clouds" id="cloud-003"
+    <img src="images/cloud-001.png" alt="" class="clouds" id="cloud-003"
       data-bottom-top ="left:-10%; transform: scale(.7)"      
       data-top-bottom="left:40%; transform: scale(.7);"
     >
@@ -22,8 +22,8 @@
     >
       <div class="col50-50">
       <h1>
-          <span class="light-blue">MAKE THEIR<br>WISHES COME TRUE:</span><br>
-          TLC’s LIFESTYLE AND TRAVEL REWARDS<br>OFFER ORIGINAL, AFFORDABLE<br> &amp; TARGETED<br>INCENTIVES THAT<br> REALLY WORK
+          <span class="light-blue">BE AS INTERESTED IN HUMAN BEHAVIOUR,</span><br>
+          AS YOU ARE IN THE TRADITIONAL LOYALTY 'SCIENCES'
         </h1
       </div>
       <div class="col50-50">
@@ -50,8 +50,10 @@
     >
     <img src="images/mag-man-ground.png" alt="" class="mag-man-ground">
   </div>
+  
+</div>
 
-  <!-- Inner slide - slide 3 -->
-  <!--#include file="section3.1.shtml" --> 
+  <!-- Inner slide - slide 4 -->
+  <!--#include file="section4.1.shtml" --> 
 
 </section>

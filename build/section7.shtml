@@ -1,8 +1,13 @@
-<img src="../images/cloud-001.png" alt="" class="clouds" id="cloud-004"
-  data-bottom-top ="left:-10%;"      
-  data-top-bottom="left:40%;"
+<img src="images/cloud-001.png" alt="" class="clouds" id="cloud-004"
+data-bottom-top ="left:-10%;"      
+data-top-bottom="left:40%;"
 >
 
+<img src="images/small-seagull-left.png" alt="" class="birds"
+data-start="top: 5200px; right: 100%; transform: scale(3) rotate(-100deg); opacity: 1;"
+data-end ="top: 5900px; right: 0%; transform: scale(.4) rotate(20deg); opacity: .2;"
+data-anchor-target="#section7"
+>
 
 <section class="section" id="section7">
 
@@ -10,37 +15,36 @@
   <div class="slide" id="slide1">
 
     <div class="section-inner max-width min-width"
-      data-top-bottom="transform:translateY(150px)"
-      data-center="transform:translateY(0px)"
-      data-bottom-top ="transform:translateY(-150px)"      
-      data-anchor-target="#section7"
+    data-top-bottom="transform:translateY(150px)"
+    data-center="transform:translateY(0px)"
+    data-bottom-top ="transform:translateY(-150px)"      
+    data-anchor-target="#section7"
     >
-      <div class="col50-50">
-        <h1>
-          <span class="light-blue">Rememeber</span><br>
-          you need<br>
-          your customers<br>
-          more than they<br>
-          need you
-        </h1>
-      </div>
-      <div class="col50-50 posi">
-        &nbsp;
-      </div>
+    <div class="col50-50"> 
+      <h1>
+        BE AUTHENTIC. <span class="light-blue">CHOOSE A LOYALTY PLATFORM THAT REFLECTS YOUR VALUES, AS WELL AS YOUR CUSTOMERS'</span>
+      </h1>
     </div>
+    <div class="col50-50 posi">
+      &nbsp;
+    </div>
+  </div>
 
-    <div class="crane">
+  <div class="crane">
+    <div class="inner">
       <img src="images/crane-head.png" alt="" class="head"
-      data-bottom-top ="transform:rotate(-30deg); top: 180px;"  
-        data-top-bottom="transform:rotate(30deg); top: 175px;"    
-        data-anchor-target="#section7"
+      data-bottom-top ="transform:rotate(-30deg);"  
+      data-top-bottom="transform:rotate(30deg);"    
+      data-anchor-target="#section7"
       >
       <img src="images/crane-body.png" alt="" class="body">
     </div>
-
   </div>
 
-  <!-- Inner slide - slide 3 -->
-  <!--#include file="section3.1.shtml" --> 
+</div>
+
+<!-- Inner slide - slide 7 -->
+<!--#include file="section7.1.shtml" -->
+<!--#include file="section7.2.shtml" -->  
 
 </section>

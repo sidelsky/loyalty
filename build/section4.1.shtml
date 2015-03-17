@@ -1,14 +1,11 @@
-<div class="slide" id="slide2">
-  
+<div class="slide">
+
   <div class="section-inner max-width min-width">
-    <div class="col50-50">
-     <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h1>
-     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    </div>
-    <div class="col50-50 posi">
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    </div>
-  </div>
+    <div>
+     <p>It's not rocket science. Detailed customer segmentation and data is important – but by knowing how customers think, feel, and react to your proposition... <strong>you can give them what they<br>really want.</strong></p> 
+ 
+<p>To be truly customer-centric, we'll help you adhere to this Golden Rule: respect your customers' feelings and behaviours, get to know them – intimately. You'll be able to measure and influence their most tenuous perceptions of your brand.</p>
+   </div>
+ </div>
 
 </div>   

@@ -1,7 +1,19 @@
+<img src="images/cloud-001.png" alt="" class="clouds" id="cloud-005"
+  data-bottom-top ="left:-10%;"      
+  data-top-bottom="left:40%;"
+>
+
+<img src="images/smaller-seagull.png" alt="" class="birds" id="small-seagull"
+  data-start="top: 4200px; left: 65%; transform: scale(4) rotate(5deg); opacity: 1;"
+  data-end ="top: 5000px; left: 0%; transform: scale(.4) rotate(-20deg); opacity: .7;"
+  data-anchor-target="#section6"
+>
+
+<img src="images/cloud-001.png" alt="" class="clouds" id="cloud-006">
 
 <section class="section" id="section6">
 
-<!--     <img src="../images/smaller-seagull.png" alt="" class="birds" id="small-seagull"
+<!--     <img src="images/smaller-seagull.png" alt="" class="birds" id="small-seagull"
       data-start="top: 440px; left: 48%; transform: scale(.3) rotate(0deg); opacity: 1;"
       data-end ="top: 1000px; left: 0%; transform: scale(.1) rotate(-70deg); opacity: 0;"
       data-anchor-target="#section6"
@@ -23,15 +35,12 @@
       </div>
       <div class="col50-50 posi">
         <h1>
-          <span class="light-blue">Rememeber</span><br>
-          you need<br>
-          your customers<br>
-          more than they<br>
-          need you
+          <span class="light-blue">The more you understand your customers</span><br>
+          the more they're worth
         </h1>
       </div>
     </div>
-  </div>
+
 
     <div class="jackpot">
       <img src="images/jackpot-head.png" alt="" class="head"
@@ -74,8 +83,9 @@
         data-anchor-target="#section6"
         >  
     </div>
-
-  <!-- Inner slide - slide 3 -->
-  <!--#include file="section3.1.shtml" --> 
+    
+  </div>
+  <!-- Inner slide - slide 6 -->
+  <!--#include file="section6.1.shtml" --> 
 
 </section>

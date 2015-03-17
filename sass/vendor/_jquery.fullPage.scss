@@ -73,15 +73,15 @@ html, body {
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 15px;
+    left: 3em;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-width: 34.5px 30px 34.5px 0;
+    border-color: transparent $primary-color transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    right: 3em;
+    border-width: 34.5px 0 34.5px 30px;
+    border-color: transparent transparent transparent $primary-color;
 }
 .fp-scrollable {
     overflow: scroll;
@@ -159,7 +159,7 @@ html, body {
     height: 4px;
     width: 4px;
     border: 0;
-    background: #333;
+    background: lighten($primary-color, 20%);
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;

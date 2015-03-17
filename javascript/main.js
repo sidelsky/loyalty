@@ -154,7 +154,7 @@ $(document).ready(function(){
 $('#fullpage').fullpage({
 	navigation: true,
 	navigationPosition: 'right',
-	anchors: ['page-1', 'page-2', 'page-3', 'page-4', 'page-5', 'page-6', 'page-7'],
+	anchors: ['page-1', 'page-2', 'page-3', 'page-4', 'page-5', 'page-6', 'page-7', 'page-8'],
 	menu: '#menu',
 	normalScrollElements: '.timeline',
 	css3: true,
@@ -172,16 +172,16 @@ $('#fullpage').fullpage({
 });
 
 function do_match_height(){
-	var match_height = $('.match-height'),
-	get_height = $('.fp-tableCell').innerHeight();
-	match_height.height(get_height);
-	//console.log('Window height ' + get_height);
+  var match_height = $('.match-height'),
+  get_height = $('.fp-tableCell').innerHeight();
+  match_height.height(get_height);
+  //console.log('Window height ' + get_height);
 }
 
-do_match_height();
+//do_match_height();
 
 $(window).resize(function(){
-	do_match_height();
+	//do_match_height();
 	//s.refresh();
 });
 

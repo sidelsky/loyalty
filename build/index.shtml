@@ -23,7 +23,7 @@
 
   <div class='preloader'>
     <div class="loading">
-      <img src="../images/spinner.gif" alt="Loading" class="spinner">
+      <img src="images/spinner.gif" alt="Loading" class="spinner">
       <p><strong>Loyalty</strong></p>
       <p id="message">Loading content</p>
     </div>
@@ -46,25 +46,28 @@
         <nav class="main-navigation">
           <ul id="menu" class="horizontal-list">
             <li data-menuanchor="page-1" class="active">
-              <a href="#page-1">First section</a>
+              <a href="#page-1">Introduction</a>
             </li>
             <li data-menuanchor="page-2">
-              <a href="#page-2">Second section</a>
+              <a href="#page-2">Rule One</a>
             </li>
             <li data-menuanchor="page-3">
-              <a href="#page-3">Third section</a>
+              <a href="#page-3">Rule Two</a>
             </li>
             <li data-menuanchor="page-4">
-              <a href="#page-4">Fourth section</a>
+              <a href="#page-4">Rule Three</a>
             </li>
             <li data-menuanchor="page-5">
-              <a href="#page-5">Fifth section</a>
+              <a href="#page-5">Rule Four</a>
             </li>
             <li data-menuanchor="page-6">
-              <a href="#page-6">Sixth section</a>
+              <a href="#page-6">Rule Five</a>
             </li>
             <li data-menuanchor="page-7">
-              <a href="#page-7">Seventh section</a>
+              <a href="#page-7">Rule Six</a>
+            </li>
+            <li data-menuanchor="page-8">
+              <a href="#page-8">Contact</a>
             </li>
           </ul>
         </nav>
@@ -92,6 +95,9 @@
 
           <!-- Section 7 -->
           <!--#include file="section7.shtml" -->
+
+          <!-- Section 8 -->
+          <!--#include file="section8.shtml" -->
 
           <!-- End full page -->  
         </div>
