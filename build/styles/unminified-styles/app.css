@@ -1041,7 +1041,7 @@ a {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 0;
+  top: -100px;
   left: 0;
 }
 #section6 .jackpot img {
